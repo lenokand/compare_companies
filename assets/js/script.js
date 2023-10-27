@@ -22,7 +22,11 @@ fetch("csvjson.json")
             liTag.appendChild(pNumberTag);
             
             
+            liTag.addEventListener("click", function() {
+                
+            });
 
+            
         });       
     })
     .catch(error => {
