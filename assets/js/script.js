@@ -6,12 +6,14 @@ fetch("csvjson.json")
         const companies = json;
         companies.forEach((company, index) => {
             const liTag = document.createElement("li");
+            const imgTag = document.createElement("img");
+            imgTag.src = company.Image;
             liTag.id = `company${index}`;
             liTag.innerHTML = company.CompanyName;
-            ulTag.appendChild(liTag);                     
-        });
-
-        const imgTag = document.querySelectorAll("li")
+            ulTag.appendChild(liTag);     
+            liTag.appendChild(imgTag);
+            
+        });       
     })
     .catch(error => {
         console.error(error);
