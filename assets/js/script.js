@@ -7,12 +7,17 @@ fetch("csvjson.json")
         companies.forEach((company, index) => {
             const liTag = document.createElement("li");
             const imgTag = document.createElement("img");
+            const pNameTag = document.createElement("p");
+            const pNumberTag = document.createElement("p");
             imgTag.src = company.Image;
             liTag.id = `company${index}`;
-            liTag.innerHTML = company.CompanyName;
+            liTag.classList.add("information");
+            pNameTag.innerHTML = company.CompanyName;
+            pNumberTag.innerHTML = company.Numinternship;
             ulTag.appendChild(liTag);     
             liTag.appendChild(imgTag);
-            
+            liTag.appendChild(pNameTag);
+            liTag.appendChild(pNumberTag);         
         });       
     })
     .catch(error => {
