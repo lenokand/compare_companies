@@ -1,5 +1,5 @@
 // Define the questions array as an array of objects.
-const questions = [
+/* const questions = [
     {
         question: "What does JSON stand for?",
         answers: ["JavaScript Object Notation", "Java Soon Objects Notification", "JavaScript Objects Notation", "JavaScript Object Notification"],
@@ -20,32 +20,34 @@ const questions = [
         answers: ["JavaScript Object Notation", "Java Soon Objects Notification", "JavaScript Objects Notation", "JavaScript Object Notification"],
         correct: 0
     }
-];
+]; */
 
 // Remove this line as it's not needed.
 // const json = JSON.stringify(questions);
 
 // Import 'questions.json' and store it in the 'questions' variable.
-import { questions } from 'questions.json';
-
+/* import { questions } from 'questions.json';
+ */
 // Perform the fetch request to get questions from an API.
-fetch("https://opentdb.com/api.php?amount=10&category=18")
+
+
+
+fetch("csvjson.json")
     .then(response => response.json())
     .then(json => {
         const mainTag = document.querySelector("main");
-        const questions = json.results;
+        console.log(json);
 
-        questions.forEach((questionObj, index) => {
+        const Company = json.results;
+
+        Company.forEach((CompanyName, index) => {
             const h2Tag = document.createElement("h2");
             // Use the current question from 'questionObj' instead of 'question[0]'.
-            h2Tag.innerHTML = questionObj.question;
+            h2Tag.innerHTML = CompanyName.ID;
             mainTag.appendChild(h2Tag);
 
-            // Create a ulTag to hold answer options.
-            const ulTag = document.createElement("ul");
-
             // Iterate through incorrect answers and create radio buttons.
-            questionObj.incorrect_answers.forEach((answer, index) => {
+            CompanyName.incorrect_answers.forEach((answer, index) => {
                 const liTag = document.createElement("li");
                 ulTag.appendChild(liTag);
 
