@@ -28,17 +28,29 @@ fetch("csvjson.json")
                     const wrapperTag =document.createElement("ul");    
                 const descriptionTag = document.createElement("li");
                 const nameTag = document.createElement("li");
+                const careerDayTag = document.createElement("li");
 
+                nameTag.classList.add('name')
+                careerDayTag.classList.add('day')
+                descriptionTag.classList.add('description')
                 nameTag.innerHTML = company.CompanyName;
+                descriptionTag.innerHTML = company.Description;
+                careerDayTag.innerHTML = company.CareerDay;
+
+
                 comparisonBlock.appendChild(wrapperTag);
                 wrapperTag.appendChild(descriptionTag);
                 descriptionTag.appendChild(nameTag);
-                descriptionTag.innerHTML = company.Description;
+                // careerDayTag.appendChild()
+                
+                
                 console.log(this);
                 this.classList.add("showMe");
 
 
-                }
+                }else{
+                    // document.querySelector('#comparisonBlock ul:first-child').remove();
+                };
                 console.log(company);
                 
                
