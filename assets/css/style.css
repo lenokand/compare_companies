@@ -79,6 +79,7 @@ main li:hover{
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
+   
 
    
 }
@@ -88,8 +89,19 @@ main li:hover{
     width: 50%;
     /* padding: 30px; */
     border: 1px solid #9BB291;
+    background: linear-gradient(90deg, rgba(217,255,248,1) 0%, rgba(199,255,218,1) 50%, rgba(196,244,199,1) 100%);
+    border-radius: 10px;
 }
 #comparisonBlock li{
     border-bottom: 1px solid #9BB291;
     padding: 30px;
+}
+footer{
+    margin-top: 90px;
+    background-color: #9BB291;
+    min-height: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #E8E1EF;
 }
