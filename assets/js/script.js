@@ -39,8 +39,9 @@ fetch("csvjson.json")
 
 
                 comparisonBlock.appendChild(wrapperTag);
+                wrapperTag.appendChild(nameTag);
                 wrapperTag.appendChild(descriptionTag);
-                descriptionTag.appendChild(nameTag);
+                
                 // careerDayTag.appendChild()
                 
                 
