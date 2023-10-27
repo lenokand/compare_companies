@@ -8,10 +8,10 @@ fetch("csvjson.json")
             const liTag = document.createElement("li");
             liTag.id = `company${index}`;
             liTag.innerHTML = company.CompanyName;
-            ulTag.appendChild(liTag);
-            
-            const ImgTag = document.createElement("img");
+            ulTag.appendChild(liTag);                     
         });
+
+        const imgTag = document.querySelectorAll("li")
     })
     .catch(error => {
         console.error(error);
