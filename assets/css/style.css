@@ -33,6 +33,10 @@ main ul{
     gap: 30px;
 
 }
+main li.showMe{
+    filter: grayscale(1);
+    cursor: auto;
+}
 main li{
     /* flex-grow: 1; */
     /* flex-shrink: 0; */
