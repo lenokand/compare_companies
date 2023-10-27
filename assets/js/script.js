@@ -36,36 +36,13 @@ fetch("csvjson.json")
     .then(response => response.json())
     .then(json => {
         const mainTag = document.querySelector("main");
-        console.log(json);
-
-        const Company = json.results;
-
-        Company.forEach((CompanyName, index) => {
+        const companies = json;
+        console.log(companies);
+        companies.forEach(company => {
+            console.log(company);
             const h2Tag = document.createElement("h2");
-            // Use the current question from 'questionObj' instead of 'question[0]'.
-            h2Tag.innerHTML = CompanyName.ID;
+            h2Tag.innerHTML = company.CompanyName_23-2; // Check the property name
             mainTag.appendChild(h2Tag);
-
-            // Iterate through incorrect answers and create radio buttons.
-            CompanyName.incorrect_answers.forEach((answer, index) => {
-                const liTag = document.createElement("li");
-                ulTag.appendChild(liTag);
-
-                const inputTag = document.createElement("input");
-                inputTag.id = "answer" + index;
-                inputTag.name = "answer";
-                inputTag.type = "radio";
-                inputTag.value = answer;
-                liTag.appendChild(inputTag);
-
-                const labelTag = document.createElement("label");
-                labelTag.setAttribute("for", "answer" + index);
-                labelTag.innerText = answer;
-                liTag.appendChild(labelTag);
-            });
-
-            // Append the ulTag to the mainTag.
-            mainTag.appendChild(ulTag);
         });
     })
     .catch(error => {
