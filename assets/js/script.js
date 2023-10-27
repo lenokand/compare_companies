@@ -12,14 +12,20 @@ fetch("csvjson.json")
             imgTag.src = company.Image;
             liTag.id = `company${index}`;
             liTag.classList.add("information");
+            pNameTag.classList.add("name");
+            pNumberTag.classList.add("number");
             pNameTag.innerHTML = company.CompanyName;
             pNumberTag.innerHTML = company.Numinternship;
             ulTag.appendChild(liTag);     
             liTag.appendChild(imgTag);
             liTag.appendChild(pNameTag);
-            liTag.appendChild(pNumberTag);         
+            liTag.appendChild(pNumberTag);
+            
+            
+
         });       
     })
     .catch(error => {
         console.error(error);
     });
+
