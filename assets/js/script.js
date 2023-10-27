@@ -24,8 +24,19 @@ fetch("csvjson.json")
             liTag.appendChild(pNumberTag);
             liTag.addEventListener("click", function() {
                 if (!this.classList.contains("showMe")) {
+
+                    if (document.querySelectorAll("#comparisonBlock ul").length >= 2) {
+                        
+                        let companyID = document.querySelector('#comparisonBlock ul:first-child').getAttribute("data-index");
+                        document.querySelector('#comparisonBlock ul:first-child').remove();
+                     
+                        document.getElementById(companyID).classList.remove("showMe")
+                        
+                        
+                    }
                     
-                    const wrapperTag =document.createElement("ul");    
+                const wrapperTag =document.createElement("ul");    
+                 wrapperTag.setAttribute("data-index",`company${index}`);
                 const descriptionTag = document.createElement("li");
                 const nameTag = document.createElement("li");
                 const careerDayTag = document.createElement("li");
@@ -45,14 +56,14 @@ fetch("csvjson.json")
                 // careerDayTag.appendChild()
                 
                 
-                console.log(this);
+                // console.log(this);
                 this.classList.add("showMe");
 
 
                 }else{
                     // document.querySelector('#comparisonBlock ul:first-child').remove();
                 };
-                console.log(company);
+               
                 
                
 
