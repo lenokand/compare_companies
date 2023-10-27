@@ -23,14 +23,14 @@ fetch("csvjson.json")
             liTag.appendChild(pNameTag);
             liTag.appendChild(pNumberTag);
             liTag.addEventListener("click", function() {
-                if (!this.classList.contains("showMe")) {
+                if (!this.classList.contains("active")) {
 
                     if (document.querySelectorAll("#comparisonBlock ul").length >= 2) {
                         
                         let companyID = document.querySelector('#comparisonBlock ul:first-child').getAttribute("data-index");
                         document.querySelector('#comparisonBlock ul:first-child').remove();
                      
-                        document.getElementById(companyID).classList.remove("showMe")
+                        document.getElementById(companyID).classList.remove("active")
                         
                         
                     }
@@ -57,7 +57,7 @@ fetch("csvjson.json")
                 
                 
                 // console.log(this);
-                this.classList.add("showMe");
+                this.classList.add("active");
 
 
                 }else{
