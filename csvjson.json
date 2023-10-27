@@ -1,7 +1,7 @@
 [
   {
     "ID": "Galenica // 2023-2  (Zürich)",
-    "Company Name_23-2": "Galenica",
+    "CompanyName_23-2": "Galenica",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "Bern",
     "How many internship(s) can you potentially provide?_23-2": "Two internships",
@@ -14,7 +14,7 @@
   },
   {
     "ID": "IBM Schweiz // 2023-2  (Zürich)",
-    "Company Name_23-2": "IBM Schweiz",
+    "CompanyName_23-2": "IBM Schweiz",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "Zurich",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
@@ -27,7 +27,7 @@
   },
   {
     "ID": "Insel Gruppe // 2023-2  (Zürich)",
-    "Company Name_23-2": "Insel Gruppe",
+    "CompanyName_23-2": "Insel Gruppe",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "Murtenstrasse 42, Bern",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
@@ -40,7 +40,7 @@
   },
   {
     "ID": "Iterativ GmbH // 2023-2  (Zürich)",
-    "Company Name_23-2": "Iterativ GmbH",
+    "CompanyName_23-2": "Iterativ GmbH",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "Powercoder Office Bern",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
@@ -53,7 +53,7 @@
   },
   {
     "ID": "KPT // 2023-2  (Zürich)",
-    "Company Name_23-2": "KPT",
+    "CompanyName_23-2": "KPT",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "KPT Bern",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
@@ -66,7 +66,7 @@
   },
   {
     "ID": "Liip AG // 2023-2 (Zürich)",
-    "Company Name_23-2": "Liip AG",
+    "CompanyName_23-2": "Liip AG",
     "CareerDay": "2023-2 Zürich 31.10 Afternoon 13:00-16:00",
     "Internship-Location": "Basel, Zurich",
     "How many internship(s) can you potentially provide?_23-2": "Two internships",
@@ -79,7 +79,7 @@
   },
   {
     "ID": "M&F Engineering AG // 2023-2 (Zürich)",
-    "Company Name_23-2": "M&F Engineering AG",
+    "CompanyName_23-2": "M&F Engineering AG",
     "CareerDay": "2023-2 Zürich 31.10 Afternoon 13:00-16:00",
     "Internship-Location": "8951 Fahrweid",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
@@ -92,7 +92,7 @@
   },
   {
     "ID": "On Ag // 2023-2  (Zürich)2023-2 (Zürich)",
-    "Company Name_23-2": "On Ag",
+    "CompanyName_23-2": "On Ag",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00,2023-2 Zürich 31.10 Afternoon 13:00-16:00",
     "Internship-Location": "Zurich",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
@@ -105,7 +105,7 @@
   },
   {
     "ID": "PwC Switzerland // 2023-2 (Zürich)",
-    "Company Name_23-2": "PwC Switzerland",
+    "CompanyName_23-2": "PwC Switzerland",
     "CareerDay": "2023-2 Zürich 31.10 Afternoon 13:00-16:00",
     "Internship-Location": "Birchstrasse 160, 8050 Zürich",
     "How many internship(s) can you potentially provide?_23-2": "Two internships,One internship",
@@ -118,7 +118,7 @@
   },
   {
     "ID": "Roche // 2023-2  (Zürich)",
-    "Company Name_23-2": "Roche",
+    "CompanyName_23-2": "Roche",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "Basel",
     "How many internship(s) can you potentially provide?_23-2": "One internship,Two internships",
@@ -131,7 +131,7 @@
   },
   {
     "ID": "Siemens Schweiz AG // 2023-2 (Zürich)",
-    "Company Name_23-2": "Siemens Schweiz AG",
+    "CompanyName_23-2": "Siemens Schweiz AG",
     "CareerDay": "2023-2 Zürich 31.10 Afternoon 13:00-16:00",
     "Internship-Location": "Zug",
     "How many internship(s) can you potentially provide?_23-2": "Two internships",
@@ -144,7 +144,7 @@
   },
   {
     "ID": "Supercomputing Systems AG // 2023-2  (Zürich)",
-    "Company Name_23-2": "Supercomputing Systems AG",
+    "CompanyName_23-2": "Supercomputing Systems AG",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "Technoparkstrasse 1, 8005 Zürich",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
@@ -157,7 +157,7 @@
   },
   {
     "ID": "Swisscom (Schweiz) AG // 2023-2  (Zürich)",
-    "Company Name_23-2": "Swisscom (Schweiz) AG",
+    "CompanyName_23-2": "Swisscom (Schweiz) AG",
     "CareerDay": "2023-2  Zürich 31.10 Morning 09:00-12:00",
     "Internship-Location": "Bern or Zurich",
     "How many internship(s) can you potentially provide?_23-2": "More than two internships",
@@ -170,7 +170,7 @@
   },
   {
     "ID": "Wyssen Avalanche Control AG // 2023-2 (Zürich)",
-    "Company Name_23-2": "Wyssen Avalanche Control AG",
+    "CompanyName_23-2": "Wyssen Avalanche Control AG",
     "CareerDay": "2023-2 Zürich 31.10 Afternoon 13:00-16:00",
     "Internship-Location": "Reichenbach i.K.",
     "How many internship(s) can you potentially provide?_23-2": "One internship",
