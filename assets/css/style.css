@@ -74,3 +74,18 @@ main li:hover{
     border-radius: 10px;
     background-color: #C4F4C7;
 }
+
+#comparisonBlock{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+
+   
+}
+#comparisonBlock ul{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px;
+    border: 1px solid #9BB291;
+}
